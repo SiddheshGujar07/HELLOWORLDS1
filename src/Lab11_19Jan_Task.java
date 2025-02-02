@@ -6,13 +6,13 @@ public class Lab11_19Jan_Task {
     public static void main(String[] args) {
 
         String name=args[0];
-        System.out.println(name);
+        System.out.println("Name:"+name);
         String age=args[1];
         int a=Integer.parseInt(age);
-        System.out.println(age);
+        System.out.println("Age:"+age);
         String salarys=args[2];
         double b=Integer.parseInt(salarys);
-        System.out.println(b);
+        System.out.println("Salary :"+b);
 
 
 
