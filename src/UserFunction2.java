@@ -13,6 +13,12 @@ public class UserFunction2 {
 
     static void age(int age) {
         System.out.println("My age is:" + age);
+
+
+    }
+    static void full_details(String name,double salary,int age)
+    {
+        System.out.println("Name is "+name+"Salary is "+salary+"My age is"+age);
     }
 
 
@@ -23,7 +29,7 @@ public class UserFunction2 {
      only_first_name("Amit");
      full_name("Siddhes","Gujar");
      age(30);
-
+    full_details("Siddhesh",4000,30);
 
     }
 }
