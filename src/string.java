@@ -12,6 +12,11 @@ public class string {
         System.out.println(s2.toUpperCase());
         System.out.println(s2.toLowerCase());
 
+        String s3="Sameer";
+        System.out.println(s3.concat("Patil"));
+        System.out.println(s3.length());
+        System.out.println(s3.indexOf("a"));
+
 
 
 
